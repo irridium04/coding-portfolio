@@ -5,6 +5,8 @@ import java.util.Scanner;
 
 
 /*
+    Code by Collin Shook
+
     This program allows a user to enter a board size (n) and showcases
     an algorithm to find if an n in a row win condition is met. 
     (Tic Tac Toe, Bingo, etc.) 
