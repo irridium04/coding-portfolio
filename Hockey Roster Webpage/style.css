@@ -1,0 +1,199 @@
+#errorbox 
+{
+  background-color: rgb(255, 109, 109);
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+
+#errorbox.empty
+{
+    display: none;
+}
+
+
+#successbox 
+{
+  background-color: rgb(114, 255, 109);
+  color: #000;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+
+#successbox.empty
+{
+    display: none;
+}
+
+
+body
+{
+    background-color: rgb(39, 39, 39);
+    color: rgb(236, 236, 236);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body.home
+{
+    background-image: url("images/rink.bmp");
+}
+
+table
+{
+    color: rgb(236, 236, 236);
+
+    display: block;
+}
+
+
+
+td
+{
+    color: rgb(255, 255, 255);
+    background-color: rgb(39, 39, 39);
+    width: 100px;
+}
+
+.pic
+{
+    margin: auto;
+    width: 500px;
+
+    padding: 10px;
+}
+
+.playerimg
+{
+    height: 50px;
+    width: 50px;
+}
+
+img 
+{
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+form 
+{
+    margin-top: 10px;
+}
+
+.content
+{
+    margin: auto;
+    width: 50%;
+    border: 2px solid rgb(245, 66, 66);
+    padding: 10px;
+}
+
+
+a
+{
+    text-decoration: none;
+    color: rgb(245, 66, 66);
+    font-size: larger;
+}
+
+a:link 
+{ 
+    text-decoration: none;
+    color: rgb(245, 66, 66);
+    font-size: larger; 
+}
+
+a:visited 
+{ 
+    text-decoration: none;
+    color: rgb(245, 66, 66);
+    font-size: larger;
+}
+
+a:hover 
+{ 
+    text-decoration: none;
+    color: rgb(247, 44, 44);
+    font-size: larger;
+}
+
+a:active
+{
+    text-decoration: none;
+    color: rgb(245, 66, 66);
+    font-size: larger;
+}
+
+
+.top-bar 
+{
+    background-color: rgb(245, 66, 66);
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dbimg
+{
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+
+.navigation 
+{
+    display: flex;
+}
+
+.navigation a 
+{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 1.2em;
+}
+
+.navigation a:hover 
+{
+    text-decoration: underline;
+}
+
+
+.container 
+{
+    height: 800px;
+    position: relative;
+}
+  
+.center 
+{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+} 
+
+.centerbutton
+{
+    background-color: rgb(245, 66, 66);
+    color: #000;
+    width: 300px;
+    height: 60px;
+}
+
+.centerbutton a
+{
+    color: #fff;
+    font-size: x-large;
+    text-decoration: none;
+}
